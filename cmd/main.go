@@ -1,6 +1,8 @@
 package main
 
+import "blockchain_go/core"
+
 func main() {
-	cli := CLI{}
+	cli := core.CLI{}
 	cli.Run()
 }

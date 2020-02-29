@@ -1,6 +1,8 @@
-package main
+package core
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func (cli *CLI) createWallet() {
 	wallets, _ := NewWallets()

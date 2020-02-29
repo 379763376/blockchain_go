@@ -1,6 +1,8 @@
-package main
+package core
 
-import "bytes"
+import (
+	"bytes"
+)
 
 // TXOutput represents a transaction output
 type TXOutput struct {

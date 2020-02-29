@@ -1,4 +1,4 @@
-package main
+package core
 
 import (
 	"bytes"
@@ -16,6 +16,7 @@ type Block struct {
 	Hash          []byte
 	Nonce         int
 }
+
 
 // Serialize serializes the block
 func (b *Block) Serialize() []byte {

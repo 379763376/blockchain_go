@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="51ca44c1-0959-44b6-98e7-63f18e33c449" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/block.go" beforeDir="false" afterPath="$PROJECT_DIR$/block.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proofofwork.go" beforeDir="false" afterPath="$PROJECT_DIR$/proofofwork.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/blockchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/blockchain.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -77,10 +76,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="550" y="41" key="#Go_Modules_(vgo)/0.0.1366.728@0.0.1366.728" timestamp="1582940816823" />
+    <state x="550" y="50" key="#Inspections" timestamp="1582946854071">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="550" y="50" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1582946854071" />
     <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582942437351">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582942437351" />
+    <state x="795" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1582946833108">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="795" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1582946833108" />
     <state x="398" y="45" key="#go_build_main.go" timestamp="1582942416919">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -105,10 +112,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582942428836" />
-    <state x="372" y="18" key="SettingsEditor" timestamp="1582943993876">
+    <state x="372" y="18" key="SettingsEditor" timestamp="1582946818827">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="372" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582943993876" />
+    <state x="372" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582946818827" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582943472976">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

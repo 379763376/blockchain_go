@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51ca44c1-0959-44b6-98e7-63f18e33c449" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/blockchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/blockchain.go" afterDir="false" />
-    </list>
+    <list default="true" id="51ca44c1-0959-44b6-98e7-63f18e33c449" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +10,9 @@
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1YSf2V6Hj8Zujz3USOmcROG6Xmy" />
   <component name="ProjectLevelVcsManager">
@@ -72,10 +72,11 @@
     <proxy>https://goproxy.io,direct</proxy>
   </component>
   <component name="WindowStateProjectService">
-    <state x="550" y="41" key="#Go_Modules_(vgo)" timestamp="1582940816823">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="805" y="86" width="800" height="677" key="#Go_Modules_(vgo)" timestamp="1583034604402">
+      <screen x="53" y="27" width="1867" height="1053" />
     </state>
     <state x="550" y="41" key="#Go_Modules_(vgo)/0.0.1366.728@0.0.1366.728" timestamp="1582940816823" />
+    <state x="805" y="86" width="800" height="677" key="#Go_Modules_(vgo)/53.27.1867.1053@53.27.1867.1053" timestamp="1583034604402" />
     <state x="550" y="50" key="#Inspections" timestamp="1582946854071">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

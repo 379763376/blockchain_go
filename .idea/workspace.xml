@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb5b700d-344c-4f31-b137-2aa70054105f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.make" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://goproxy.io,direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1184" y="313" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583035190774">
+      <screen x="53" y="27" width="1867" height="1053" />
+    </state>
+    <state x="1184" y="313" width="424" height="484" key="FileChooserDialogImpl/53.27.1867.1053@53.27.1867.1053" timestamp="1583035190774" />
+    <state x="883" y="190" key="SettingsEditor" timestamp="1583035207660">
+      <screen x="53" y="27" width="1867" height="1053" />
+    </state>
+    <state x="883" y="190" key="SettingsEditor/53.27.1867.1053@53.27.1867.1053" timestamp="1583035207660" />
+  </component>
+</project>

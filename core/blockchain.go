@@ -1,7 +1,6 @@
 package core
 
 import (
-	"blockchain_go"
 	"bytes"
 	"crypto/ecdsa"
 	"encoding/hex"
@@ -32,7 +31,7 @@ func CreateBlockchain(address string) *Blockchain {
 
 	var tip []byte
 
-	cbtx := blockchain_go.NewCoinbaseTX(address, genesisCoinbaseData)
+	cbtx := NewCoinbaseTX(address, genesisCoinbaseData)
 	genesis := NewGenesisBlock(cbtx)
 
 	db, err := bolt.Open(dbFile, 0600, nil)
@@ -97,7 +96,7 @@ func NewBlockchain() *Blockchain {
 }
 
 // FindTransaction finds a transaction by its ID
-func (bc *Blockchain) FindTransaction(ID []byte) (blockchain_go.Transaction, error) {
+func (bc *Blockchain) FindTransaction(ID []byte) (Transaction, error) {
 	bci := bc.Iterator()
 
 	for {
@@ -114,12 +113,12 @@ func (bc *Blockchain) FindTransaction(ID []byte) (blockchain_go.Transaction, err
 		}
 	}
 
-	return blockchain_go.Transaction{}, errors.New("Transaction is not found")
+	return Transaction{}, errors.New("Transaction is not found")
 }
 
 // FindUTXO finds all unspent transaction outputs and returns transactions with spent outputs removed
-func (bc *Blockchain) FindUTXO() map[string]blockchain_go.TXOutputs {
-	UTXO := make(map[string]blockchain_go.TXOutputs)
+func (bc *Blockchain) FindUTXO() map[string]TXOutputs {
+	UTXO := make(map[string]TXOutputs)
 	spentTXOs := make(map[string][]int)
 	bci := bc.Iterator()
 
@@ -169,7 +168,7 @@ func (bc *Blockchain) Iterator() *BlockchainIterator {
 }
 
 // MineBlock mines a new block with the provided transactions
-func (bc *Blockchain) MineBlock(transactions []*blockchain_go.Transaction) *Block {
+func (bc *Blockchain) MineBlock(transactions []*Transaction) *Block {
 	var lastHash []byte
 
 	for _, tx := range transactions {
@@ -214,8 +213,8 @@ func (bc *Blockchain) MineBlock(transactions []*blockchain_go.Transaction) *Bloc
 }
 
 // SignTransaction signs inputs of a Transaction
-func (bc *Blockchain) SignTransaction(tx *blockchain_go.Transaction, privKey ecdsa.PrivateKey) {
-	prevTXs := make(map[string]blockchain_go.Transaction)
+func (bc *Blockchain) SignTransaction(tx *Transaction, privKey ecdsa.PrivateKey) {
+	prevTXs := make(map[string]Transaction)
 
 	for _, vin := range tx.Vin {
 		prevTX, err := bc.FindTransaction(vin.Txid)
@@ -229,12 +228,12 @@ func (bc *Blockchain) SignTransaction(tx *blockchain_go.Transaction, privKey ecd
 }
 
 // VerifyTransaction verifies transaction input signatures
-func (bc *Blockchain) VerifyTransaction(tx *blockchain_go.Transaction) bool {
+func (bc *Blockchain) VerifyTransaction(tx *Transaction) bool {
 	if tx.IsCoinbase() {
 		return true
 	}
 
-	prevTXs := make(map[string]blockchain_go.Transaction)
+	prevTXs := make(map[string]Transaction)
 
 	for _, vin := range tx.Vin {
 		prevTX, err := bc.FindTransaction(vin.Txid)

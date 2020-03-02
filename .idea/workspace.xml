@@ -2,29 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51ca44c1-0959-44b6-98e7-63f18e33c449" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/base58.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/base58.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/block.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/block.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/blockchain.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blockchain_iterator.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/blockchain_iterator.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli_createblockchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli_createblockchain.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli_createwallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli_createwallet.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli_getbalance.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli_getbalance.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli_listaddress.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli_listaddress.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli_printchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli_printchain.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli_reindexutxo.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli_reindexutxo.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cli_send.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli_send.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/merkle_tree.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/merkle_tree.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/merkle_tree_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/merkle_tree_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proofofwork.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/proofofwork.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/transaction.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction_input.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/transaction_input.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transaction_output.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/transaction_output.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/utils.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utxo_set.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/utxo_set.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/wallet.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallets.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/wallets.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base58.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/base58.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/block.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/block.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/blockchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/blockchain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cli_createblockchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli_createblockchain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cli_createwallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli_createwallet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cli_getbalance.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli_getbalance.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cli_listaddress.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli_listaddress.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cli_reindexutxo.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli_reindexutxo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/cli_send.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli_send.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/proofofwork.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/proofofwork.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/transaction_output.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/transaction_output.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/utxo_set.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/utxo_set.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/wallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/wallet.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +50,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -125,6 +118,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="708" y="125" width="565" height="528" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1582943629802" />
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1583121724570">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583121724570" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1582942428836">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -141,10 +138,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582942428836" />
-    <state x="372" y="18" key="SettingsEditor" timestamp="1582946818827">
+    <state x="372" y="18" key="SettingsEditor" timestamp="1583121757872">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="372" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582946818827" />
+    <state x="372" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583121757872" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582943472976">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

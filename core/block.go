@@ -1,7 +1,6 @@
 package core
 
 import (
-	"blockchain_go"
 	"bytes"
 	"encoding/gob"
 	"log"
@@ -11,14 +10,14 @@ import (
 // Block represents a block in the blockchain
 type Block struct {
 	Timestamp     int64
-	Transactions  []*blockchain_go.Transaction
+	Transactions  []*Transaction
 	PrevBlockHash []byte
 	Hash          []byte
 	Nonce         int
 }
 
 // NewBlock creates and returns Block
-func NewBlock(transactions []*blockchain_go.Transaction, prevBlockHash []byte) *Block {
+func NewBlock(transactions []*Transaction, prevBlockHash []byte) *Block {
 	block := &Block{time.Now().Unix(), transactions, prevBlockHash, []byte{}, 0}
 	pow := NewProofOfWork(block)
 	nonce, hash := pow.Run()
@@ -30,8 +29,8 @@ func NewBlock(transactions []*blockchain_go.Transaction, prevBlockHash []byte) *
 }
 
 // NewGenesisBlock creates and returns genesis Block
-func NewGenesisBlock(coinbase *blockchain_go.Transaction) *Block {
-	return NewBlock([]*blockchain_go.Transaction{coinbase}, []byte{})
+func NewGenesisBlock(coinbase *Transaction) *Block {
+	return NewBlock([]*Transaction{coinbase}, []byte{})
 }
 
 // HashTransactions returns a hash of the transactions in the block

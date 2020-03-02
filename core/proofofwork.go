@@ -1,7 +1,6 @@
 package core
 
 import (
-	"blockchain_go"
 	"bytes"
 	"crypto/sha256"
 	"fmt"
@@ -36,9 +35,9 @@ func (pow *ProofOfWork) prepareData(nonce int) []byte {
 		[][]byte{
 			pow.block.PrevBlockHash,
 			pow.block.HashTransactions(),
-			blockchain_go.IntToHex(pow.block.Timestamp),
-			blockchain_go.IntToHex(int64(targetBits)),
-			blockchain_go.IntToHex(int64(nonce)),
+			IntToHex(pow.block.Timestamp),
+			IntToHex(int64(targetBits)),
+			IntToHex(int64(nonce)),
 		},
 		[]byte{},
 	)

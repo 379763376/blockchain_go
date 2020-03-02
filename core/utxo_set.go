@@ -11,7 +11,7 @@ const utxoBucket = "chainstate"
 
 // UTXOSet represents UTXO set
 type UTXOSet struct {
-	Blockchain *core.Blockchain
+	Blockchain *Blockchain
 }
 
 // FindSpendableOutputs finds and returns unspent outputs to reference in inputs
@@ -140,7 +140,7 @@ func (u UTXOSet) Reindex() {
 
 // Update updates the UTXO set with transactions from the Block
 // The Block is considered to be the tip of a blockchain
-func (u UTXOSet) Update(block *core.Block) {
+func (u UTXOSet) Update(block *Block) {
 	db := u.Blockchain.db
 
 	err := db.Update(func(tx *bolt.Tx) error {

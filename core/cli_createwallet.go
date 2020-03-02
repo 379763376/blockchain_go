@@ -1,12 +1,11 @@
 package core
 
 import (
-	"blockchain_go"
 	"fmt"
 )
 
 func (cli *CLI) createWallet() {
-	wallets, _ := blockchain_go.NewWallets()
+	wallets, _ := NewWallets()
 	address := wallets.CreateWallet()
 	wallets.SaveToFile()
 

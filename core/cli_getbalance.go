@@ -1,16 +1,17 @@
-package main
+package core
 
 import (
+	"blockchain_go"
 	"fmt"
 	"log"
 )
 
 func (cli *CLI) getBalance(address string) {
-	if !ValidateAddress(address) {
+	if !blockchain_go.ValidateAddress(address) {
 		log.Panic("ERROR: Address is not valid")
 	}
 	bc := NewBlockchain()
-	UTXOSet := UTXOSet{bc}
+	UTXOSet := blockchain_go.UTXOSet{bc}
 	defer bc.db.Close()
 
 	balance := 0

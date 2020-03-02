@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51ca44c1-0959-44b6-98e7-63f18e33c449" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/base58.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/base58.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/block.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/block.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/blockchain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockchain_iterator.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/blockchain_iterator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli_createblockchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli_createblockchain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli_createwallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli_createwallet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli_getbalance.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli_getbalance.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli_listaddress.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli_listaddress.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli_printchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli_printchain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli_reindexutxo.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli_reindexutxo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli_send.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/cli_send.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkle_tree.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/merkle_tree.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merkle_tree_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/merkle_tree_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proofofwork.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/proofofwork.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/transaction.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction_input.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/transaction_input.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transaction_output.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/transaction_output.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/utils.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utxo_set.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/utxo_set.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/wallet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallets.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/wallets.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YSf2V6Hj8Zujz3USOmcROG6Xmy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\goWrk\src\blockchain_go\core" />
+      <recent name="E:\goWrk\src\blockchain_go\cmd" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://goproxy.io,direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="550" y="41" key="#Go_Modules_(vgo)" timestamp="1582940816823">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="550" y="41" key="#Go_Modules_(vgo)/0.0.1366.728@0.0.1366.728" timestamp="1582940816823" />
+    <state x="550" y="50" key="#Inspections" timestamp="1582946854071">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="550" y="50" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1582946854071" />
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582942437351">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582942437351" />
+    <state x="795" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1582946833108">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="795" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1582946833108" />
+    <state x="398" y="45" key="#go_build_main.go" timestamp="1582942416919">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="398" y="45" key="#go_build_main.go/0.0.1366.728@0.0.1366.728" timestamp="1582942416919" />
+    <state x="708" y="125" width="565" height="528" key="DiffContextDialog" timestamp="1582943629802">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="708" y="125" width="565" height="528" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1582943629802" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1582942428836">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582942428836" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1582942428836">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582942428836" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1582942428836">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582942428836" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1582942428836">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582942428836" />
+    <state x="372" y="18" key="SettingsEditor" timestamp="1582946818827">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="372" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582946818827" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582943472976">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1582943472976" />
+  </component>
+</project>
